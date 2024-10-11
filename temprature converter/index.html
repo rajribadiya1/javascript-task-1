@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-image: url(./image/image.jpg); background-repeat:no-repeat ;background-size:cover">
+    <div class="container">
+        <h1>Temprature Converter</h1>
+        <div class="Temprature-Container" oninput="convert()">
+            <select id="Temprature-First"> 
+                <option value="Celcius">Celcius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Feranhit">Feranhit</option>
+            </select>
+            <input type="number" id="worth"  value ="1" >
+        </div>
+        <div class="Temprature-Container">
+            <select id="Temprature-Second">
+                <option value="Celcius">Celcius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Feranhit">Feranhit</option>
+            </select>
+            <input type="number" id="result" readonly>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
